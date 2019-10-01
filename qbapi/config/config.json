@@ -1,0 +1,19 @@
+{
+  "from_api": [
+    [
+      "https://api.github.com/user",
+      "supersecretpassword:X",
+      "token",
+      ["name", "email", "location"]
+    ]
+  ],
+
+  "to_api": [
+    [
+      "https://targolini.freshdesk.com/api/v2/contacts",
+      "supersecretpassword:X",
+      "basic",
+      ["name", "email", "address"]
+    ]
+  ]
+}
