@@ -33,7 +33,7 @@ setup(
     ],
     install_requires=[
         'trio-click==7.0.3',
-        'aiohttp==3.6.1',
+        'aiohttp==3.7.4',
     ],
 
     scripts=['qb.py'],
